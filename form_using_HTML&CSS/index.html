@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+                <div class="boxes box1">
+                    <!-- <img src="formheader.webp" class="header"> use background image instead to avoid positioning problem -->
+                </div>
+                <div class="boxes box2">
+                    <h2 class="heading1">Contact information</h2> <hr><br>
+                    <img src="not_shared.jpg">
+                    <p class="box2p">dkaushik364@gmail.com(not shared) <span class="switch_acc">Switch accounts</span></p>
+                    <p class="required">*Required</p>
+                </div>
+                <div class="boxes box3">
+                    <form class="form">
+                        <label for="Name">Name</label><br><br><br>
+                        <input class="no-outline" type="text" id="Name" name="Name" placeholder="Your answer" required><hr>
+                    </form>
+                </div>
+                <div class="boxes box4">
+                    <form class="form">
+                        <label for="Email">Email</label><br><br><br>
+                        <input class="no-outline" type="email" id="Email" name="Email"placeholder="Your answer" required><hr>
+                    </form>
+                </div>
+                <div class="boxes box5">
+                    <form class="form">
+                        <label for="add">Address</label><br><br><br>
+                        <textarea class="no-outline" type="text" id="add" name="add"placeholder="Your answer" required></textarea><hr>
+                    </form>
+                </div>
+                <div class="boxes box6">
+                    <form class="form">
+                        <label for="Phone">Phone number</label><br><br><br>
+                        <input class="no-outline" type="number" id="phone" name="phone" placeholder="Your answer" required><hr>
+                    </form>
+                </div>
+                <div class="boxes box7">
+                    <form class="form">
+                        <label for="Comnt">Comments</label><br><br><br>
+                        <textarea rows="1" cols="50" class="no-outline" type="textarea" id="comnt" name="comnt" placeholder="Your answer"></textarea> <hr>
+                    </form>
+                </div>
+        </div>
+        <footer>
+            <div class="foot-button">
+                <button class="btn1" type="button">Submit</button>
+                <button class="btn2" type="reset">Clear Form</button>
+            </div>
+            <p class="ft-para1">Never submit passwords through Google Forms</p>
+            <p class="ft-para2">The content is niether created nor endorsed by Google. <u> Report Abuse</u> - <u>Terms of Service</u> - <u>Privacy Policy</u></p><br>
+            <p class="ft-para3"><b>Google</b> Forms</p>
+        </footer>
+    </div>
+</body>
+</html>
